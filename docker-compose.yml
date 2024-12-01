@@ -1,6 +1,6 @@
 version: "3.8"
 services :
   web :
-     image : tarunp2912/my-note-app:latest
+     build:
      ports :
          - "8000:8000"
